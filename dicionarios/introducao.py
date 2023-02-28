@@ -28,6 +28,12 @@
 # dic.keys () #retorna uma lista com as chaves do dicionário
 # dic.values () #retorna uma lista com os valores do dicionário
 # dic.items() #retorna uma tupla com as chaves e valores, imutavél
-# Um dicionário em Python garante a ordem de inserção, ou seja, os item são organizados de acordo com a ordem em que são inseridos.
-
+# Um dicionário em Python garante a ordem de inserção, ou seja, os item são organizados de acordo com a ordem em que são inseridos
+# Porém há maneiras de ordenar as chaves da forma que o programador quiser, mas as chaves precisam ser comparáveis. Exemplo: letra do alfabeto com letra do alfabeto, número inteiro com número inteiero
+# print(dicio) #imprime na ordem de inserção, na ordem em que os elementos foram adicionados
+# o sorted(dicio) retorna apenas as chaves organizadas
+# print(dict(sorted(dicio.items()))) #retorna o dicionário organizado por ordem alfabética
+# o dicio = dict(sorted(dicio.items())) atribui um novo valor ao dicionário dicio e deixa todos os componentes organizados por ordem alfabética independente da ordem de inserção
+# oprint(sorted(dicio.items())) #retorna uma lista de tuplas organizada em ordem de valor (1,2,3)
+# o print(sorted(dicio, key=dicio.get)) #ordena as chaves por valor
 
