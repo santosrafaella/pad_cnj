@@ -33,4 +33,12 @@
 # Cópia de uma matriz
 # m1 = [ [1, 1], [2, 2]]
 # m2 = m1 #função que faz com que duas matrizes utilizem o mesmo espaço, a mesma lista ????
+# é como se a m1 estivesse apontando para uma caixa e m2 estivesse apontando para a mesma caixa e não que m2 é uma cópia de m1
+# é como se duas pessoas estivessem apontando para uma caixa de meias, porém as duas não podem pegar a mesma meia
+# quando a lista de m1 é modificada, a lista m2 também é modificado
+# Import Copy
+# Para criar uma cópia superficial, onde a matriz será realmente copiada, usaresmo a função import copy:
+# m1 = [ [1, 1], [2, 2]]
+# m2 = copy.copy(m1)
+# 
 #
